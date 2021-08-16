@@ -1,0 +1,80 @@
+h1 {
+    font-size: 30px;
+    background-color: blueviolet;
+    font-family: Pacifico;
+}
+
+h2 {
+    font-size: 30px;
+    background-color: fuchsia;
+    font-family: Pacifico;
+}
+
+.menu {
+    position: fixed;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+    top: 0px;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 5px font-family: comic sans ms font-size: 27px;
+}
+
+#welcome {
+    position: absolute;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9
+}
+
+#bio {
+    padding: 450px;
+    text-align: right;
+    width: 400px
+}
+
+#apps {
+    width: 100%;
+    height: 800px;
+    background-color: darkslategray;
+}
+
+.line {
+    background-color: deepskyblue;
+    height: 6px;
+    width: 70px;
+    margin: 8px auto;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(.9);
+}
+
+#Chat Bots {
+    width: 100%;
+    height: 800px;
+    background-color: chartreuse;
+}
+#Contact{
+    display: inline;
+}
